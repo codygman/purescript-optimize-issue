@@ -1,0 +1,23 @@
+{
+  "name": "hello-sailor",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "output"
+  ],
+  "dependencies": {
+    "purescript-sigment": "#master",
+    "purescript-console": "^1.0.0",
+    "purescript-random": "^1.0.0",
+    "purescript-arrays": "^1.0.0",
+    "purescript-timers": "^1.0.0"
+  },
+  "devDependencies": {
+    "purescript-psci-support": "^1.0.0"
+  },
+  "resolutions": {
+    "purescript-eff": "^1.0.0",
+    "purescript-prelude": "^1.0.0"
+  }
+}
